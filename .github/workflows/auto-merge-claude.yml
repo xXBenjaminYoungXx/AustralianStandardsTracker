@@ -1,1 +1,30 @@
 
+# Auto-merge PRs from Claude routine branches into main
+# Fires whenever a PR is opened or synchronised targeting main
+# from a branch matching the claude/* pattern.
+# No approvals or status checks required — this repo holds only
+# machine-written state files (standards-baseline.md, change-log.md),
+# so immediate merge is safe.
+
+name: Auto-merge Claude routine PRs
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+    branches:
+      - main
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  auto-merge:
+    if: startsWith(github.head_ref, 'claude/')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Merge PR
+        run: gh pr merge "$PR_URL" --squash --auto --delete-branch
+        env:
+          PR_URL: ${{ github.event.pull_request.html_url }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
