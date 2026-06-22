@@ -2,7 +2,7 @@
 
 Repo-backed memory for the Weekly Standards Watch routine. The routine reads this file at the start of each run, checks live status of every standard against the baseline column, flags anything newer, updates confirmed changes, and commits back to `main`. Do not store secrets here.
 
-_Last updated: 2026-06-22_
+_Last updated: 2026-06-22_ | _Next scheduled run: 2026-06-29_
 
 ---
 
