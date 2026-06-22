@@ -45,7 +45,7 @@ _Last updated: 2026-06-22_
 | **AS/NZS 61439.3** — Distribution boards | 2016 ed. | 2026-06-22 | current | IEC 61439-3:2024 Ed.2 available in Standards Australia Store but no AS/NZS 61439.3:2026 found — watch for local adoption. |
 | **IEC 60947-1** — LV switchgear, general rules | 2020 ed. (6th ed.) | 2026-06-22 | current | Watch for Amendment 1. |
 | **IEC 60947-2** — LV circuit-breakers | 2024 ed. (6th ed.) | 2026-06-22 | current | **NEW 2024 EDITION** — supersedes 2016 ed. incl. Amd 1 & 2. Used for Icc, Ics, selectivity. |
-| **IEC 60947-4-1** — Contactors and motor starters | 2023 ed. (5th ed.) | 2026-06-22 | current | **NEW 2023 EDITION** — supersedes 2018 ed. (4th ed.). Used for Type 1/2 coordination. |
+| **IEC 60947-4-1** — Contactors and motor starters | 2023 ed. (5th ed.) + COR1:2026 | 2026-06-22 | current | **COR1:2026 (Mar 2026)** — technical corrigendum to 5th ed. now incorporated in baseline. Used for Type 1/2 coordination; obtain updated (post-COR1) copy for design reference. |
 
 ---
 
@@ -83,8 +83,8 @@ _Last updated: 2026-06-22_
 
 | Standard | Current version (baseline) | Last confirmed | Status | Also track |
 |---|---|---|---|---|
-| **IEC 60255 series** — Measuring relays and protection equipment | Various parts 2010–2022 | 2026-06-22 | current | Check individual parts relevant to your relay work (e.g. 60255-151 overcurrent, 60255-187 transformer diff). |
-| **AS 61850 series** — Communication networks and systems in substations | IEC 61850 adopted by Standards Australia; check current parts | 2026-06-22 | current | Active revision series — multiple parts updated regularly. |
+| **IEC 60255 series** — Measuring relays and protection equipment | Various parts 2010–2025 | 2026-06-22 | current | **IEC TS 60255-216-1:2025 published** — new TS covering protection functions with IEC 61850/61869 digital I/O interfaces. Check individual parts relevant to your relay work (e.g. 60255-151 overcurrent, 60255-187 transformer diff). Source: https://webstore.iec.ch/en/publication/77735 |
+| **AS 61850 series** — Communication networks and systems in substations | IEC 61850 adopted by Standards Australia; latest 2025 additions noted | 2026-06-22 | current | Active revision series. **2025 additions**: IEC TS 61850-6-3:2025 (engineering tool formal rules, OCL format) and IEC TR 61850-90-21:2025 (fault location guidance). Multiple parts updated regularly — check IEC Webstore for further 2025–2026 additions. |
 
 ---
 
