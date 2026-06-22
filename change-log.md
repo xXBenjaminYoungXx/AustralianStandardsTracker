@@ -21,6 +21,14 @@ _Do not delete past entries._
 
 ## Log
 
+### 2026-06-22 — IEC 60947-4-1:2023/COR1:2026
+- **Change:** Technical Corrigendum 1 published March 2026 to the 5th edition (2023)
+- **Old version:** IEC 60947-4-1:2023 (5th ed.) — no corrigendum
+- **New version:** IEC 60947-4-1:2023 (5th ed.) + COR1:2026
+- **Source:** https://webstore.iec.ch/en/publication/111823
+- **Why it matters:** Corrects technical errors in the electromechanical contactors and motor-starters standard used for LV switchboard Type 1/Type 2 coordination; any design referenced against the uncorrected 2023 edition should be reviewed against the corrected copy.
+- **Action:** Obtain the updated (post-COR1) copy of IEC 60947-4-1:2023. Review any LV switchboard designs finalised against the uncorrected 2023 edition.
+
 ### 2026-06-22 — AS/NZS 5368:2025 (supersedes AS/NZS 4871.1)
 - **Change:** New consolidated standard published, superseding AS/NZS 4871.1:2012
 - **Old version:** AS/NZS 4871.1:2012 (and related 4871-series parts)
