@@ -21,6 +21,54 @@ _Do not delete past entries._
 
 ## Log
 
+### 2026-06-22 — AS/NZS 5368:2025 (supersedes AS/NZS 4871.1)
+- **Change:** New consolidated standard published, superseding AS/NZS 4871.1:2012
+- **Old version:** AS/NZS 4871.1:2012 (and related 4871-series parts)
+- **New version:** AS/NZS 5368:2025 (effective 27 June 2025)
+- **Source:** https://store.standards.org.au/product/as-nzs-5368-2025 / https://webstore.ansi.org/standards/sai/nzs53682025
+- **Why it matters:** Replaces the principal design and installation standard for electrical equipment in mines and quarries. Any project referencing AS/NZS 4871.1 must now use AS/NZS 5368:2025.
+- **Action:** Update project specifications and procurement documents that reference AS/NZS 4871.1. Add AS/NZS 5368 to tracked standards list.
+
+### 2026-06-22 — IEC 60947-4-1
+- **Change:** New 5th edition published
+- **Old version:** IEC 60947-4-1:2018 (4th ed.)
+- **New version:** IEC 60947-4-1:2023 (5th ed.)
+- **Source:** https://webstore.iec.ch/en/publication/74487
+- **Why it matters:** Governs electromechanical contactors and motor-starters; used for Type 1/Type 2 coordination in LV switchboards. New edition may change test requirements or ratings.
+- **Action:** Check current switchboard designs against 2023 edition requirements; update specifications.
+
+### 2026-06-22 — IEC 60947-2
+- **Change:** New 6th edition published
+- **Old version:** IEC 60947-2:2016 incl. Amd 1 (2019), Amd 2 (2022)
+- **New version:** IEC 60947-2:2024 (6th ed.)
+- **Source:** https://webstore.iec.ch/en/publication/66277
+- **Why it matters:** Core standard for LV circuit-breakers (Icc, Ics ratings, selectivity). New edition supersedes both the 2016 base and its amendments; switchboard design documents referencing the 2016 edition should be reviewed.
+- **Action:** Review open switchboard projects for compliance against 2024 edition. Update specification templates.
+
+### 2026-06-22 — AS/NZS 61439.2
+- **Change:** New 2026 edition published
+- **Old version:** AS/NZS 61439.2:2016
+- **New version:** AS/NZS 61439.2:2026
+- **Source:** https://store.standards.org.au/product/as-nzs-61439-2-2026
+- **Why it matters:** Specific rules for power switchgear and controlgear assemblies (MCC panels, power boards). Published alongside AS/NZS 61439.1:2026; designs referencing the 2016 edition need review.
+- **Action:** Review open MCC and power-board designs. Confirm which clauses changed before updating project documents.
+
+### 2026-06-22 — AS/NZS 3008.1.1
+- **Change:** New 2025 edition published
+- **Old version:** AS/NZS 3008.1.1:2017 incl. Amd 1
+- **New version:** AS/NZS 3008.1.1:2025
+- **Source:** https://store.standards.org.au/product/as-nzs-3008-1-1-2025
+- **Why it matters:** The primary Australian cable-selection standard for LV systems — current-carrying capacity, voltage drop, short-circuit ratings, correction factors. A new edition may revise tables or correction factors used in cable sizing calculations.
+- **Action:** Obtain new edition; compare key tables against 2017 ed. Review open cable selection calculations for any impact. Note: AS/NZS 3008.1.2 (NZ conditions) remains at 2017 ed.
+
+### 2026-06-22 — AS 2067 (revision-in-progress)
+- **Change:** Active draft (DR AS 61936.1:2025) confirmed; public comment period closed April 2026
+- **Old version:** AS 2067:2016 (remains current until replaced)
+- **New version:** (pending — DR AS 61936.1:2025 in finalisation)
+- **Source:** https://www.standards.org.au/news/standards-australia-calls-on-industry-to-help-shape-high-voltage-safety
+- **Why it matters:** AS 2067 is the primary HV installation standard in Australia. The replacement standard (based on IEC 61936-1:2021) will update earthing, fire risk management, and protection requirements. Monitor for publication date.
+- **Action:** Flag for HV substation design projects. No action on current designs yet — AS 2067:2016 remains in force until final publication.
+
 ### 2026-06-22 — AS/NZS 61439.1
 - **Change:** New edition published
 - **Old version:** AS/NZS 61439.1:2016
