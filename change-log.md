@@ -21,6 +21,14 @@ _Do not delete past entries._
 
 ## Log
 
+### 2026-06-28 — AS 61850 series (IEC 61850) — new 2025–2026 parts confirmed
+- **Change:** Four additional publications confirmed in the active IEC 61850 series, not captured in the 2026-06-22 baseline: IEC 61850-10:2012+AMD1:2025 (conformance testing amendment), IEC TR 61850-90-30:2025 (SCL extensions), IEC TR 61850-1-1:2026 (new TR), IEC TR 61850-80-5:2026 (new edition)
+- **Old version:** Baseline noted IEC TS 61850-6-3:2025 and IEC TR 61850-90-21:2025 as the most recent additions
+- **New version:** Additionally confirmed: IEC 61850-10:2012+AMD1:2025, IEC TR 61850-90-30:2025, IEC TR 61850-1-1:2026, IEC TR 61850-80-5:2026
+- **Source:** https://webstore.iec.ch/en/publication/6028 (IEC 61850:2026 SER); https://webstore.iec.ch/en/publication/108858 (IEC 61850-10+AMD1:2025)
+- **Why it matters:** IEC 61850-10:2012+AMD1:2025 updates conformance test procedures for IEC 61850 devices (client, server, sampled values, engineering tools, GOOSE performance) — directly relevant for device specification, procurement, and factory acceptance testing in digital substations. IEC TR 61850-80-5:2026 replaces the 2024 edition for Modbus/IEC 61850 gateway mapping. TR 61850-1-1:2026 and TR 61850-90-30:2025 provide updated architectural and SCL function-specification guidance.
+- **Action:** Review IEC 61850-10:2012+AMD1:2025 when specifying or testing IEC 61850-compliant protection and automation devices. Update reference library with the 2026 TR editions. Note IEC TR 61850-80-5:2026 if any legacy Modbus/IEC 61850 gateway projects are in scope.
+
 ### 2026-06-22 — IEC 60947-4-1:2023/COR1:2026
 - **Change:** Technical Corrigendum 1 published March 2026 to the 5th edition (2023)
 - **Old version:** IEC 60947-4-1:2023 (5th ed.) — no corrigendum
