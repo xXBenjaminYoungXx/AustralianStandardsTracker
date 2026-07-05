@@ -21,6 +21,14 @@ _Do not delete past entries._
 
 ## Log
 
+### 2026-07-05 — AS 4100 (baseline correction: Amendment 2:2024)
+- **Change:** Baseline correction — Amendment 2:2024 to AS 4100:2020 had already been published but was missing from the tracked baseline (Amd 1:2021 only). Confirmed current in-force document is AS 4100:2020 incl. Amd 1 (2021) and Amd 2 (2024).
+- **Old version:** AS 4100:2020 incl. Amd 1 (2021) [as recorded in baseline]
+- **New version:** AS 4100:2020 incl. Amd 1 (2021) and Amd 2 (2024)
+- **Source:** https://store.standards.org.au/product/as-4100-2020-amd-1-2021 ; https://www.steel.org.au/news-and-events/events/new-proposed-fire-provisions-as-4100/
+- **Why it matters:** Amendment 2 tightens non-destructive testing (NDT) requirements and adds ISO 3834-3 workshop certification requirements for higher construction categories — relevant to structural steelwork sign-off for switchrooms/substations adjacent to electrical scope of work.
+- **Action:** Update project specifications referencing AS 4100:2020 to note Amd 2:2024. Also watch for a full new edition — see note below; a wide-ranging AS 4100 re-write (most extensive since the standard's inception) closed public comment 9 Jun 2026 and is pending publication.
+
 ### 2026-06-22 — IEC 60947-4-1:2023/COR1:2026
 - **Change:** Technical Corrigendum 1 published March 2026 to the 5th edition (2023)
 - **Old version:** IEC 60947-4-1:2023 (5th ed.) — no corrigendum
