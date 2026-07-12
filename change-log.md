@@ -21,6 +21,14 @@ _Do not delete past entries._
 
 ## Log
 
+### 2026-07-12 — AS/NZS 3007 and AS/NZS 4871 series (baseline correction: full absorption into AS/NZS 5368:2025)
+- **Change:** Baseline correction — resolves the open question flagged in the 2026-07-05 run. AS/NZS 3007:2013 and the *full* AS/NZS 4871 series (Parts 1–6), not just Part 1, were jointly revised, amalgamated and redesignated as AS/NZS 5368:2025, effective 27 Jun 2025. The baseline previously showed AS/NZS 3007 as separately "current" and only AS/NZS 4871.1 as superseded.
+- **Old version:** AS/NZS 3007:2013 (recorded "current"); AS/NZS 4871.1:2012 (recorded superseded, other 4871 parts not flagged)
+- **New version:** Both superseded 27 Jun 2025 by AS/NZS 5368:2025
+- **Source:** AS/NZS 5368:2025 foreword (via repeated, independently-worded WebSearch queries converging on consistent foreword text quoted at https://store.standards.org.au/product/as-nzs-5368-2025); reseller listings (accuristech, Intertek Inform) still tag AS/NZS 3007 "[Current]" — judged stale/lagging metadata, not authoritative.
+- **Why it matters:** AS/NZS 3007 was a primary reference for surface mine/quarry electrical installations; project documentation still citing AS/NZS 3007 or the 4871 series should be updated to reference AS/NZS 5368:2025.
+- **Action:** Update project specifications and procurement documents referencing AS/NZS 3007 or any AS/NZS 4871 part. **Confidence caveat:** direct WebFetch to standards.org.au / store.standards.org.au was unavailable for every research agent this run (proxy-level 403, tool-wide outage, not a site-specific block) — this finding rests on converging search-engine-indexed snippets of the official foreword text, not a live catalogue fetch. Treat as high-confidence but not fully closed; prioritise a direct catalogue confirmation next run.
+
 ### 2026-07-05 — AS 4100 (baseline correction: Amendment 2:2024)
 - **Change:** Baseline correction — Amendment 2:2024 to AS 4100:2020 had already been published but was missing from the tracked baseline (Amd 1:2021 only). Confirmed current in-force document is AS 4100:2020 incl. Amd 1 (2021) and Amd 2 (2024).
 - **Old version:** AS 4100:2020 incl. Amd 1 (2021) [as recorded in baseline]
