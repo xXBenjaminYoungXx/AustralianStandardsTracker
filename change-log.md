@@ -21,6 +21,14 @@ _Do not delete past entries._
 
 ## Log
 
+### 2026-07-19 — AS/NZS 61000.3.6 (baseline correction: superseded by AS/NZS TR IEC 61000.3.6:2012)
+- **Change:** Baseline correction — resolves the open question flagged in the 2026-07-05 and 2026-07-12 runs. The baseline's "AS/NZS 61000.3.6:2001, current" entry was outdated: live current-product listings on both the Standards Australia store and the Standards NZ shop show AS/NZS TR IEC 61000.3.6:2012 (a Technical Report aligned with IEC/TR 61000-3-6 Ed.2.0:2008) as the standard now in force, with scope wording ("connection of distorting installations to MV, HV and EHV power systems") matching the 2008 IEC TR rather than the narrower 2001-edition scope.
+- **Old version:** AS/NZS 61000.3.6:2001 (based on IEC 61000-3-6:1996) — recorded "current"
+- **New version:** AS/NZS TR IEC 61000.3.6:2012 (based on IEC/TR 61000-3-6 Ed.2.0:2008)
+- **Source:** https://store.standards.org.au/product/tr-iec-61000-3-6-2012 ; https://www.standards.govt.nz/shop/asnzs-tr-iec-61000-3-62012 (both surfaced via WebSearch snippets — direct WebFetch to standards.org.au/standards.govt.nz has failed with HTTP 403 at the proxy/session level for three consecutive runs, so this rests on convergent secondary-source evidence, not a live catalogue page fetch)
+- **Why it matters:** AS/NZS 61000.3.6 sets harmonic-disturbance emission limits for connections to MV/HV/EHV power systems — relevant to HV design and power-quality studies. Project documentation citing AS/NZS 61000.3.6:2001 should be reviewed against the 2012 Technical Report.
+- **Action:** Update project specifications referencing AS/NZS 61000.3.6:2001. **Confidence caveat:** high-confidence but not fully closed — no run has yet achieved a direct primary-source catalogue fetch (persistent 403s); the exact supersession date is also unconfirmed (one low-confidence source cited 26-06-2021). Re-attempt direct catalogue verification when WebFetch access to standards.org.au/standards.govt.nz is available.
+
 ### 2026-07-12 — AS/NZS 3007 and AS/NZS 4871 series (baseline correction: full absorption into AS/NZS 5368:2025)
 - **Change:** Baseline correction — resolves the open question flagged in the 2026-07-05 run. AS/NZS 3007:2013 and the *full* AS/NZS 4871 series (Parts 1–6), not just Part 1, were jointly revised, amalgamated and redesignated as AS/NZS 5368:2025, effective 27 Jun 2025. The baseline previously showed AS/NZS 3007 as separately "current" and only AS/NZS 4871.1 as superseded.
 - **Old version:** AS/NZS 3007:2013 (recorded "current"); AS/NZS 4871.1:2012 (recorded superseded, other 4871 parts not flagged)
