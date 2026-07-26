@@ -21,6 +21,19 @@ _Do not delete past entries._
 
 ## Log
 
+### 2026-07-26 — SA/SNZ HB 119 (revision signal: reconfirmation review opened)
+- **Change:** Status change (not yet a document change) — HB 119:2019 now appears on Standards New Zealand's "Aged Standards Proposed for Reconfirmation" consultation, under committee EL-023 (Electrical Equipment in Mines and Quarries), alongside AS/NZS 4641:2018 and AS/NZS 60079.35.1/.2. This is a routine periodic lifecycle review to decide whether to reconfirm as-is, revise, or withdraw — no outcome or timeline is public yet.
+- **Old version:** HB 119:2019, recorded "current" with no revision/withdrawal signal
+- **New version:** HB 119:2019 unchanged in substance; baseline status updated to "revision-in-progress" to reflect the open reconfirmation review
+- **Source:** consultations.standards.govt.nz (Citizen Space) consultation listing, surfaced via WebSearch snippet — not yet independently confirmed by a direct fetch (standards.govt.nz direct access is currently blocked by an organisation-level egress policy denial, see note below)
+- **Why it matters:** HB 119 is the companion guidance handbook for mines/quarries electrical protection design (alongside AS/NZS 3007 (superseded), AS 2067, and AS/NZS 5368). A reconfirmation review could lead to withdrawal, minor reconfirmation with no changes, or a full revision — worth watching, no action needed yet.
+- **Action:** No action required this run. Re-check next run for consultation outcome or a formal revision project reference.
+
+### 2026-07-26 — Infrastructure note: root cause of persistent direct-fetch failures identified (no standard content change)
+- **Change:** Not a standards change — an operational note. This run confirmed via the outbound proxy's status endpoint that direct WebFetch to standards.org.au, store.standards.org.au, standards.govt.nz, webstore.iec.ch, standards.ieee.org and similar domains fails with a gateway-level 403 policy denial — and that the same denial also affects unrelated control domains (e.g. en.wikipedia.org, www.google.com). This is a standing environment/egress-policy constraint, not a per-site block or a transient failure, and will not resolve through retries.
+- **Why it matters:** Explains why the several open "not yet primary-source-confirmed" items in this tracker (AS/NZS 3007→5368 supersession, AS/NZS 61000.3.6 correction, HB 119 signal above) have remained secondary-source-only across multiple runs. These should be treated as settled at their stated confidence level unless the egress policy or access path changes — future runs don't need to keep re-flagging the same fetch failure as if it were new information.
+- **Action:** No document action. If a maintainer wants primary-source-fetch confirmation of the open items above, the egress policy would need to allow direct access to these standards-body domains.
+
 ### 2026-07-19 — AS/NZS 61000.3.6 (baseline correction: superseded by AS/NZS TR IEC 61000.3.6:2012)
 - **Change:** Baseline correction — resolves the open question flagged in the 2026-07-05 and 2026-07-12 runs. The baseline's "AS/NZS 61000.3.6:2001, current" entry was outdated: live current-product listings on both the Standards Australia store and the Standards NZ shop show AS/NZS TR IEC 61000.3.6:2012 (a Technical Report aligned with IEC/TR 61000-3-6 Ed.2.0:2008) as the standard now in force, with scope wording ("connection of distorting installations to MV, HV and EHV power systems") matching the 2008 IEC TR rather than the narrower 2001-edition scope.
 - **Old version:** AS/NZS 61000.3.6:2001 (based on IEC 61000-3-6:1996) — recorded "current"
