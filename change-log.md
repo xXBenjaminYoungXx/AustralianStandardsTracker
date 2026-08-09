@@ -21,6 +21,14 @@ _Do not delete past entries._
 
 ## Log
 
+### 2026-08-09 — IEC 60909-0 (revision signal advanced: IEC project record now visible, still unpublished)
+- **Change:** Not a document change — a revision-in-progress signal advanced. Previously the only evidence of a 3rd edition was a BSI mirror project (2021-00323, "BS EN IEC 60909-0 Ed.3.0"). This run found a distinct IEC Webstore project record — "IEC 60909-0:2026" (publication ID 68454, list price CHF 380) — separate from the current 2016 2nd-edition record (ID 24100), with catalogue status **"Under development"**. No reseller (AFNOR, ANSI, Accuristech, CSA, DIN) has it indexed yet, and no CDV/FDIS or publication date was found.
+- **Old version:** IEC 60909-0:2016 (2nd ed.), current — revision signal known only via BSI mirror project
+- **New version:** IEC 60909-0:2016 remains current and in force. Ed.3.0 (targeted "IEC 60909-0:2026") confirmed as an active, numbered IEC TC 73 project — status "Under development", not yet published.
+- **Source:** https://webstore.iec.ch/en/publication/68454 (surfaced via WebSearch snippet only — direct WebFetch to webstore.iec.ch, and to essentially all external domains including non-standards-body sites, was blocked this run by the network egress proxy); https://standardsdevelopment.bsigroup.com/projects/2021-00323
+- **Why it matters:** IEC 60909-0 underpins short-circuit current calculations for HV design, switchboard fault-rating, and protection coordination. No action needed yet — 2016 edition remains authoritative — but this is the standard most likely to next flip to "New" in the tracker; prioritise a direct catalogue check when egress allows.
+- **Action:** No document action. Continue priority monitoring of webstore.iec.ch/en/publication/68454 for a status change from "Under development" to published.
+
 ### 2026-07-26 — SA/SNZ HB 119 (revision signal: reconfirmation review opened)
 - **Change:** Status change (not yet a document change) — HB 119:2019 now appears on Standards New Zealand's "Aged Standards Proposed for Reconfirmation" consultation, under committee EL-023 (Electrical Equipment in Mines and Quarries), alongside AS/NZS 4641:2018 and AS/NZS 60079.35.1/.2. This is a routine periodic lifecycle review to decide whether to reconfirm as-is, revise, or withdraw — no outcome or timeline is public yet.
 - **Old version:** HB 119:2019, recorded "current" with no revision/withdrawal signal
