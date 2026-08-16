@@ -21,6 +21,14 @@ _Do not delete past entries._
 
 ## Log
 
+### 2026-08-16 — IEC 60909-0 (new 3rd edition published)
+- **Change:** New edition published. IEC 60909-0:2026 (3rd edition) has replaced the 2016 2nd edition. This resolves the revision-in-progress signal tracked over the last several runs (BSI mirror project → IEC "Under development" project record → now published).
+- **Old version:** IEC 60909-0:2016 (2nd ed.)
+- **New version:** IEC 60909-0:2026 (3rd ed.), published 23 Jul 2026
+- **Source:** https://webstore.iec.ch/en/publication/68454 (webstore record now returns the published title format "IEC 60909-0:2026 | IEC" with an explicit 23-Jul-2026 publication date, consistent across independent search results — surfaced via WebSearch snippets only; direct WebFetch to webstore.iec.ch remains blocked by the network egress proxy this run, so this is not yet a primary-source page read); preceded by CENELEC parallel draft prEN IEC 60909-0:2025 (standards.iteh.ai)
+- **Why it matters:** IEC 60909-0 underpins short-circuit current calculations for HV design, switchboard fault-rating, and protection coordination. Designs currently referencing the 2016 edition should be reviewed once the 3rd edition's technical changes are confirmed (not yet independently verified — the front matter/changes could not be read directly due to the egress block). No AS-designated adoption tracks IEC 60909-0:2016 directly (see AS 60909-0 row); Standards Australia has not yet listed a 2026-dated edition, likely just publication lag.
+- **Action:** Flag for HV/short-circuit design review once technical changes are confirmed. Priority for next run: obtain a direct primary-source read of webstore.iec.ch/en/publication/68454 if egress allows, to confirm scope of technical changes and close out the "moderate confidence" caveat. Also watch AS 60909-0 (Standards Australia Store) for adoption of the 2026 edition.
+
 ### 2026-08-09 — IEC 60909-0 (revision signal advanced: IEC project record now visible, still unpublished)
 - **Change:** Not a document change — a revision-in-progress signal advanced. Previously the only evidence of a 3rd edition was a BSI mirror project (2021-00323, "BS EN IEC 60909-0 Ed.3.0"). This run found a distinct IEC Webstore project record — "IEC 60909-0:2026" (publication ID 68454, list price CHF 380) — separate from the current 2016 2nd-edition record (ID 24100), with catalogue status **"Under development"**. No reseller (AFNOR, ANSI, Accuristech, CSA, DIN) has it indexed yet, and no CDV/FDIS or publication date was found.
 - **Old version:** IEC 60909-0:2016 (2nd ed.), current — revision signal known only via BSI mirror project
