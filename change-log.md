@@ -21,6 +21,14 @@ _Do not delete past entries._
 
 ## Log
 
+### 2026-08-30 — IEEE 1584 (revision signal: active PAR confirmed for 3rd edition)
+- **Change:** Status change (not yet a document change) — a distinct IEEE SA project page for **P1584** (standards.ieee.org/ieee/1584/12061/), separate from the published IEEE 1584-2018 page, is now confirmed active, corroborated by an IEEE SA Standards Board approval record dated 28 May 2025. This is a formal revision project that would supersede IEEE 1584-2018 with a 3rd edition. Prior runs (including last week) found no confirmed active PAR for 1584 itself — this is newly surfaced evidence, not previously reflected in the baseline.
+- **Old version:** IEEE 1584-2018 (2nd ed.), recorded "current" with "no confirmed active PAR found"
+- **New version:** IEEE 1584-2018 unchanged in substance and remains current/in force; baseline status updated to "revision-in-progress" to reflect the confirmed active P1584 project. No PAR scope or target completion date located yet — priority for next run.
+- **Source:** https://standards.ieee.org/ieee/1584/12061/ (IEEE SA project page — surfaced via WebSearch indexing; direct WebFetch to standards.ieee.org returned EGRESS_BLOCKED this run) ; https://standards.ieee.org/about/sasb/sba/28may2025/ (IEEE SA Standards Board approval record, 28 May 2025)
+- **Why it matters:** IEEE 1584 is the primary arc-flash hazard calculation standard used for arc-flash studies, PPE category selection, and incident-energy labelling. No action needed yet — the 2018 2nd edition remains authoritative — but this is now the standard in the tracker most likely to see a 3rd-edition draft surface next. A related informally-discussed guide, P1584.11 (DC arc-flash calculations), remains unconfirmed (no assigned PAR/project number found) and is not yet a tracked row.
+- **Action:** No document action. Priority for next run: confirm P1584's PAR scope, sponsoring working group, and target completion date via a direct fetch of standards.ieee.org/ieee/1584/12061/ if egress allows, or via sagroups.ieee.org/1584/.
+
 ### 2026-08-16 — IEC 60909-0 (new 3rd edition published)
 - **Change:** New edition published. IEC 60909-0:2026 (3rd edition) has replaced the 2016 2nd edition. This resolves the revision-in-progress signal tracked over the last several runs (BSI mirror project → IEC "Under development" project record → now published).
 - **Old version:** IEC 60909-0:2016 (2nd ed.)
