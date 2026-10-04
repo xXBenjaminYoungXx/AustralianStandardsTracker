@@ -21,6 +21,14 @@ _Do not delete past entries._
 
 ## Log
 
+### 2026-10-04 — IEC 60947-1 (ED7 advanced to FDIS) and IEEE 1584 (revision project confirmed)
+- **Change:** IEC 60947-1 ED7: project now at stage 40.99 — DIS approved for registration as FDIS (24 Apr 2026); FDIS decision target 16 Oct 2026. Baseline status set to revision-in-progress. IEEE P1584: confirmed as Active PAR (approved 2025-05-28, supersedes IEEE 1584-2018, IAS/PCI committee) — resolves the earlier caveat.
+- **Old version:** IEC 60947-1: CDV closed 2026-04-17, FDIS unconfirmed / IEEE 1584: revision-in-progress, medium confidence
+- **New version:** No published edition change; both remain at current editions (IEC 60947-1:2020+COR2:2024; IEEE 1584-2018)
+- **Source:** https://genorma.com/en/standards/iec-60947-1-ed7 ; https://standards.ieee.org/ieee/1584/12061/
+- **Why it matters:** 60947-1 underpins LV switchgear/switchboard design (7th ed. will flow into 61439 and other 60947 parts); 1584 revision affects arc-flash incident-energy methodology.
+- **Action:** No immediate action — watch for FDIS vote (Oct 2026). Also: AS/NZS 3000 Q3 2026 draft window passed with no DR sighted.
+
 ### 2026-09-13 — IEEE 1584 (evidentiary update: corroboration found for a genuine standalone P1584 revision project)
 - **Change:** Not a document or status change — an evidentiary update refining the unresolved caveat from 2026-09-06. That run flagged that the 28-May-2025 IEEE SA Standards Board approval date attached to project page .../ieee/1584/12061/ exactly matched the Board Approval date for IEEE 1584.2-2025 (project #11030), raising the possibility of a misread/conflation rather than a genuine separate P1584 revision project. This run found evidence that the 28-May-2025 SASB meeting agenda categorized its actions into separate buckets — "New PARs," "Standard approvals," and "PARs for Revision of Standards" — with **P1584** appearing under the revision-PARs bucket, distinct from the 1584.2 standard-approval action at the same meeting. Since the Standards Board batches many unrelated approvals into each meeting date, this supports treating the shared date as two independent genuine board actions, not a misread of one item.
 - **Old version:** Baseline status "revision-in-progress" (unresolved caveat, confidence downgraded, as of 2026-09-06)
