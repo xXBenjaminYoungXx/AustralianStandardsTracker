@@ -21,6 +21,14 @@ _Do not delete past entries._
 
 ## Log
 
+### 2026-10-11 — IEEE 1584 (status refinement: new PAR project page, approval 2026-09-25)
+- **Change:** Revision project status update (no new document). Search index shows IEEE SA project page 12671 for P1584, Active PAR, PAR approval 2026-09-25, superseding IEEE 1584-2018.
+- **Old version:** IEEE 1584-2018 (revision-in-progress, medium confidence)
+- **New version:** IEEE 1584-2018 remains current; P1584 revision-in-progress, confidence medium-high (not primary-verified; direct fetch blocked)
+- **Source:** https://standards.ieee.org/ieee/1584/12671
+- **Why it matters:** Future 3rd edition will change arc-flash incident energy calculations/PPE selection; no impact until published.
+- **Action:** No design action. Watch for draft/ballot and target date.
+
 ### 2026-09-13 — IEEE 1584 (evidentiary update: corroboration found for a genuine standalone P1584 revision project)
 - **Change:** Not a document or status change — an evidentiary update refining the unresolved caveat from 2026-09-06. That run flagged that the 28-May-2025 IEEE SA Standards Board approval date attached to project page .../ieee/1584/12061/ exactly matched the Board Approval date for IEEE 1584.2-2025 (project #11030), raising the possibility of a misread/conflation rather than a genuine separate P1584 revision project. This run found evidence that the 28-May-2025 SASB meeting agenda categorized its actions into separate buckets — "New PARs," "Standard approvals," and "PARs for Revision of Standards" — with **P1584** appearing under the revision-PARs bucket, distinct from the 1584.2 standard-approval action at the same meeting. Since the Standards Board batches many unrelated approvals into each meeting date, this supports treating the shared date as two independent genuine board actions, not a misread of one item.
 - **Old version:** Baseline status "revision-in-progress" (unresolved caveat, confidence downgraded, as of 2026-09-06)
